@@ -5,7 +5,7 @@ I've been using userrecon for a while but was tired of wasting time with all the
 So I create UserFinder, which as you will see, is very simple and contains no false-positives (for now).
 
 ## Usage
-python3 userfinder.py <username>
+python3 userfinder.py < username >
 
 ## Example
 ```
