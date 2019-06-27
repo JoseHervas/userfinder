@@ -1,5 +1,5 @@
 # UserFinder
-## A better userrecon
+## Find usernames across 72 social networks
 I've been using userrecon for a while but was tired of wasting time with all the  false-positives it was returning and the invalid URLs. The tool is barely maintained and the author not reacting to all the issues opened on GitHub.
 
 So I create UserFinder, which as you will see, is very simple and contains no false-positives (for now).
