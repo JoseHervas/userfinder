@@ -28,4 +28,4 @@ by tr4cefl0w
 ```
 
 ## Editing sites.txt
-If you wish to add more sites, don't forget to add the `{}` as placeholder for the username. It might return false-positives if the website returns 200s on invalid requests. If this happens, you can the message returned by the page in the `not_found_msg` list. Make sure to write it in lower-cases. Also, I had issues with html.unescape so I'm not decoding the HTML entities. If the message contains entities, simply add them to the list.
+If you wish to add more sites, don't forget to add the `{}` as placeholder for the username. It might return false-positives if the website returns 200s on invalid requests. If this happens, add the message returned by the page in the `not_found_msg` list. Make sure to write it in lower cases because the code will convert the entire response to lower case to avoid missing matches due to case sensitivity. Also, I had issues with html.unescape so I'm not decoding the HTML entities. If the message contains entities, simply add them to the list.
